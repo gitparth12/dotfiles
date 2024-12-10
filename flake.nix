@@ -22,6 +22,7 @@
           pkgs.tmux
           pkgs.rustup
           pkgs.vscode
+          pkgs.gh
       ];
 
       homebrew = {
