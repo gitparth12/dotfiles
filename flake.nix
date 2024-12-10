@@ -42,8 +42,9 @@
             "Bitwarden" = 1352778147;
             "Bear" = 1091189122;
         };
-
         onActivation.cleanup = "zap";
+        onActivation.autoUpdate = true;
+        onActivation.upgrade = true;
       };
       # https://apps.apple.com/au/app/tot/id1491071483?mt=12
       # https://apps.apple.com/au/app/snippetslab/id1006087419?mt=12
