@@ -21,6 +21,7 @@
           pkgs.mkalias
           pkgs.tmux
           pkgs.rustup
+          pkgs.vscode
       ];
 
       homebrew = {
