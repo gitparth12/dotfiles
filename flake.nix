@@ -23,6 +23,8 @@
           pkgs.rustup
           pkgs.vscode
           pkgs.gh
+          pkgs.stow
+          pkgs.popcorntime
       ];
 
       homebrew = {
