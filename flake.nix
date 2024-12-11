@@ -24,7 +24,6 @@
           pkgs.vscode
           pkgs.gh
           pkgs.stow
-          pkgs.popcorntime
       ];
 
       homebrew = {
@@ -36,6 +35,7 @@
         casks = [
           "iina"
           "hammerspoon"
+          "karabiner-elements"
         ];
 
         masApps = {
