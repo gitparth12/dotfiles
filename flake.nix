@@ -24,6 +24,7 @@
           pkgs.vscode
           pkgs.gh
           pkgs.stow
+          pkgs.discord
       ];
 
       homebrew = {
