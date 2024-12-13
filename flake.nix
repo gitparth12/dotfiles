@@ -25,6 +25,7 @@
           pkgs.gh
           pkgs.stow
           pkgs.discord
+          pkgs.zoom-us
       ];
 
       homebrew = {
