@@ -35,6 +35,22 @@
         "type": "github"
       }
     },
+    "homebrew-sdkman": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1724076382,
+        "narHash": "sha256-rEfhjQ9wnos1fZCVL1qAnyb7+K0KwT5hBZ8t1W9eP58=",
+        "owner": "sdkman",
+        "repo": "homebrew-tap",
+        "rev": "b77eac357536ac6c946f61248bf4b4661f2065cf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sdkman",
+        "repo": "homebrew-tap",
+        "type": "github"
+      }
+    },
     "nix-darwin": {
       "inputs": {
         "nixpkgs": [
@@ -141,6 +157,7 @@
     },
     "root": {
       "inputs": {
+        "homebrew-sdkman": "homebrew-sdkman",
         "nix-darwin": "nix-darwin",
         "nix-homebrew": "nix-homebrew",
         "nixpkgs": "nixpkgs_3"

@@ -7,9 +7,14 @@
     nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
 
     nix-homebrew.url = "github:zhaofengli-wip/nix-homebrew";
+
+    homebrew-sdkman = {
+      url = "github:sdkman/homebrew-tap";
+      flake = false;
+    };
   };
 
-  outputs = inputs@{ self, nix-darwin, nixpkgs, nix-homebrew }:
+  outputs = inputs@{ self, nix-darwin, nixpkgs, nix-homebrew, homebrew-sdkman }:
   let
     configuration = { pkgs, config, ... }: {
       # List packages installed in system profile. To search by name, run:
@@ -32,6 +37,7 @@
         enable = true;
         brews = [
           "mas"
+          "sdkman-cli"
         ];
 
         casks = [
@@ -120,6 +126,10 @@
 
             # User owning the Homebrew prefix
             user = "parthbhargava";
+
+            taps = {
+              "sdkman/homebrew-tap" = homebrew-sdkman;
+            };
 
             autoMigrate = true;
           };
