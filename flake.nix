@@ -31,6 +31,7 @@
           pkgs.stow
           pkgs.discord
           pkgs.zoom-us
+          pkgs.ngrok
       ];
 
       homebrew = {
