@@ -26,7 +26,6 @@
           pkgs.stow
           pkgs.discord
           pkgs.zoom-us
-          pkgs.docker
       ];
 
       homebrew = {
@@ -39,6 +38,7 @@
           "iina"
           "hammerspoon"
           "karabiner-elements"
+          "docker"
         ];
 
         masApps = {
