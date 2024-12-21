@@ -46,6 +46,7 @@
           "hammerspoon"
           "karabiner-elements"
           "docker"
+          "notion"
         ];
 
         masApps = {
