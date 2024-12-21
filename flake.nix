@@ -39,6 +39,7 @@
         brews = [
           "mas"
           "sdkman-cli"
+          "croc"
         ];
 
         casks = [
