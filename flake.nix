@@ -32,6 +32,7 @@
           pkgs.discord
           pkgs.zoom-us
           pkgs.ngrok
+          pkgs.spotify
       ];
 
       homebrew = {
