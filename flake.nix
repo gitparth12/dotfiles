@@ -53,7 +53,12 @@
           "minecraft"
           "logi-options+"
           "iterm2"
+          "notchnook"
+          "arc"
+          "alfred"
+          "steam"
         ];
+        # afaik, dozer deprecated through homebrew, manual install necessary
 
         masApps = {
             "SnippetsLab" = 1006087419;
@@ -62,6 +67,7 @@
             "Edison" = 1489591003;
             "Bitwarden" = 1352778147;
             "Bear" = 1091189122;
+            "Whatsapp" = 310633997;
         };
         onActivation.cleanup = "zap";
         onActivation.autoUpdate = true;
