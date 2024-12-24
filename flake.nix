@@ -52,6 +52,7 @@
           "clop"
           "minecraft"
           "logi-options+"
+          "iterm2"
         ];
 
         masApps = {
