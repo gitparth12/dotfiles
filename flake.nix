@@ -50,6 +50,8 @@
           "docker"
           "notion"
           "clop"
+          "minecraft"
+          "logi-options+"
         ];
 
         masApps = {
