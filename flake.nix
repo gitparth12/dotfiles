@@ -49,6 +49,7 @@
           "karabiner-elements"
           "docker"
           "notion"
+          "clop"
         ];
 
         masApps = {
