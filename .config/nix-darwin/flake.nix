@@ -34,6 +34,7 @@
           pkgs.ngrok
           pkgs.spotify
           pkgs.zoxide
+          pkgs.fzf
       ];
 
       homebrew = {
