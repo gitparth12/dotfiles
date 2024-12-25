@@ -57,6 +57,7 @@
           "arc"
           "alfred"
           "steam"
+          "zerotier-one"
         ];
         # afaik, dozer deprecated through homebrew, manual install necessary
 
