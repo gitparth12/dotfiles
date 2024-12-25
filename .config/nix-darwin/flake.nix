@@ -35,6 +35,7 @@
           pkgs.spotify
           pkgs.zoxide
           pkgs.fzf
+          pkgs.eza
       ];
 
       homebrew = {
