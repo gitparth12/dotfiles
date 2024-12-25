@@ -114,7 +114,7 @@ if [ -x "$(command -v eza)" ]; then
     alias ls="eza"
     alias la="eza --long --all --group"
 fi
-alias rebuild="darwin-rebuild switch --flake ~/.config/nix-darwin#pro"
+alias rebuild="darwin-rebuild switch --flake ~/dotfiles/.config/nix-darwin#pro"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
