@@ -1,0 +1,4 @@
+home:~/data
+mcserver:~/data/game/mc_server/docker
+nix:~/.config/nix-darwin
+nvim:~/.config/nvim
