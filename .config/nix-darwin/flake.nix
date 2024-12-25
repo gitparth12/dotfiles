@@ -33,6 +33,7 @@
           pkgs.zoom-us
           pkgs.ngrok
           pkgs.spotify
+          pkgs.zoxide
       ];
 
       homebrew = {
