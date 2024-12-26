@@ -36,6 +36,7 @@
           pkgs.zoxide
           pkgs.fzf
           pkgs.eza
+          pkgs.ripgrep
       ];
 
       homebrew = {
