@@ -134,3 +134,6 @@ eval "$(zoxide init --cmd cd zsh)"
 
 # add ruby gems to path
 PATH=$PATH:$(ruby -e 'puts Gem.bindir')
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - zsh)"
