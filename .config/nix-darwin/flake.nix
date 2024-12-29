@@ -37,6 +37,7 @@
           pkgs.fzf
           pkgs.eza
           pkgs.ripgrep
+          pkgs.modrinth-app
       ];
 
       homebrew = {
