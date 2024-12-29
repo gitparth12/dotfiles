@@ -62,6 +62,7 @@
           "alfred"
           "steam"
           "zerotier-one"
+          "termius"
         ];
         # afaik, dozer deprecated through homebrew, manual install necessary
 
