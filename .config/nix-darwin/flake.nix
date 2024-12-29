@@ -38,6 +38,7 @@
           pkgs.eza
           pkgs.ripgrep
           pkgs.modrinth-app
+          pkgs.pyenv
       ];
 
       homebrew = {
