@@ -1,12 +1,12 @@
 # By default Reload config with shft + cmd + , 
 
 theme = rose-pine
-# background = #000000
+background = #000000
 background-opacity = 0.5
 background-blur-radius = 20
 
 font-family = JetBrainsMonoNL Nerd Font 
-font-size = 20
+font-size = 14
 cursor-style = block
 cursor-style-blink = false
 cursor-invert-fg-bg = true
