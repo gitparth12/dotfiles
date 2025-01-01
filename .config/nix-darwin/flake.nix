@@ -39,6 +39,7 @@
           pkgs.ripgrep
           pkgs.modrinth-app
           pkgs.pyenv
+          pkgs.font-jetbrains-mono-nerd-font
       ];
 
       homebrew = {
