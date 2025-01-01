@@ -39,6 +39,8 @@
           pkgs.ripgrep
           pkgs.modrinth-app
           pkgs.pyenv
+          pkgs.yazi
+          pkgs.fastfetch
       ];
 
       homebrew = {
