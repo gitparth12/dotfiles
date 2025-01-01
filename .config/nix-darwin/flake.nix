@@ -39,8 +39,6 @@
           pkgs.ripgrep
           pkgs.modrinth-app
           pkgs.pyenv
-          pkgs.yazi
-          pkgs.fastfetch
       ];
 
       homebrew = {
@@ -68,7 +66,6 @@
           "zerotier-one"
           "termius"
           "ghostty"
-          "font-jetbrains-mono-nerd-font"
         ];
         # afaik, dozer deprecated through homebrew, manual install necessary
 
@@ -91,6 +88,7 @@
       fonts.packages = [
         # pkgs.nerd-fonts._0xproto
         # pkgs.nerd-fonts.droid_sans_mono
+        pkgs.nerd-fonts.jetbrains-mono
       ];
 
       system.activationScripts.applications.text = let
