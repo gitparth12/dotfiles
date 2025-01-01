@@ -39,7 +39,6 @@
           pkgs.ripgrep
           pkgs.modrinth-app
           pkgs.pyenv
-          pkgs.font-jetbrains-mono-nerd-font
       ];
 
       homebrew = {
@@ -67,6 +66,7 @@
           "zerotier-one"
           "termius"
           "ghostty"
+          "font-jetbrains-mono-nerd-font"
         ];
         # afaik, dozer deprecated through homebrew, manual install necessary
 
