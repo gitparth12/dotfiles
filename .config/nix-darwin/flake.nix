@@ -12,9 +12,11 @@
       url = "github:sdkman/homebrew-tap";
       flake = false;
     };
+
+    neovim-nightly-overlay.url = "github:nix-community/neovim-nightly-overlay";
   };
 
-  outputs = inputs@{ self, nix-darwin, nixpkgs, nix-homebrew, homebrew-sdkman }:
+  outputs = { self, ... }@inputs:
   let
     configuration = { pkgs, config, ... }: {
       # List packages installed in system profile. To search by name, run:
@@ -22,7 +24,7 @@
       nixpkgs.config.allowUnfree = true;
 
       environment.systemPackages = [ 
-          pkgs.neovim
+          # pkgs.neovim
           pkgs.mkalias
           pkgs.tmux
           pkgs.rustup
@@ -39,6 +41,7 @@
           pkgs.ripgrep
           pkgs.modrinth-app
           pkgs.pyenv
+          inputs.neovim-nightly-overlay.packages.${pkgs.system}.default
       ];
 
       homebrew = {
@@ -136,10 +139,10 @@
   {
     # Build darwin flake using:
     # $ darwin-rebuild build --flake .#simple
-    darwinConfigurations."pro" = nix-darwin.lib.darwinSystem {
+    darwinConfigurations."pro" = inputs.nix-darwin.lib.darwinSystem {
       modules = [
         configuration
-        nix-homebrew.darwinModules.nix-homebrew
+        inputs.nix-homebrew.darwinModules.nix-homebrew
         {
           nix-homebrew = {
             # Install Homebrew under the default prefix
@@ -152,7 +155,7 @@
             user = "parthbhargava";
 
             taps = {
-              "sdkman/homebrew-tap" = homebrew-sdkman;
+              "sdkman/homebrew-tap" = inputs.homebrew-sdkman;
             };
 
             autoMigrate = true;
