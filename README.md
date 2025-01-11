@@ -47,8 +47,8 @@ symlinks.
 Finally, source zshrc and run darwin-rebuild through the alias in my zshrc.
 
 ```
-source ~/.zshrc
-rebuild
+$ source ~/.zshrc
+$ rebuild
 ```
 
 [Inspo Vid](https://www.youtube.com/watch?v=y6XCebnB9gs)
