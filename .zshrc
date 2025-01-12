@@ -51,4 +51,4 @@ export PYENV_ROOT="$HOME/.pyenv"
 eval "$(pyenv init - zsh)"
 
 # add personal scripts directory to path
-export PATH="~/scripts:$PATH"
+export PATH="$HOME/scripts:$PATH"
