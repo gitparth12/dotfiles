@@ -43,6 +43,8 @@
           pkgs.pyenv
           inputs.neovim-nightly-overlay.packages.${pkgs.system}.default
           pkgs.rlwrap  # required by cht.sh cli mode
+          pkgs.readline  # python installation seemed incomplete
+          pkgs.xz  # python installation seemed incomplete
       ];
 
       homebrew = {
