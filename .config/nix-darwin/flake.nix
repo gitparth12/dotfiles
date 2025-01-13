@@ -24,7 +24,7 @@
       nixpkgs.config.allowUnfree = true;
 
       environment.systemPackages = [ 
-          # pkgs.neovim
+          pkgs.neovim
           pkgs.mkalias
           pkgs.tmux
           pkgs.rustup
@@ -41,7 +41,7 @@
           pkgs.ripgrep
           pkgs.modrinth-app
           pkgs.pyenv
-          inputs.neovim-nightly-overlay.packages.${pkgs.system}.default
+          # inputs.neovim-nightly-overlay.packages.${pkgs.system}.default
           pkgs.rlwrap  # required by cht.sh cli mode
           pkgs.readline  # python installation seemed incomplete
           pkgs.xz  # python installation seemed incomplete
