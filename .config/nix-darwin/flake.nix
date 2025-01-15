@@ -44,7 +44,7 @@
           # inputs.neovim-nightly-overlay.packages.${pkgs.system}.default
           pkgs.rlwrap  # required by cht.sh cli mode
           pkgs.readline  # python installation seemed incomplete
-          pkgs.xz  # python installation seemed incomplete
+          pkgs.fd  # required by venv-selector.nvim
       ];
 
       homebrew = {
@@ -53,6 +53,8 @@
           "mas"
           "sdkman-cli"
           "croc"
+          "xz"  # python installation seemed incomplete
+          "huggingface-cli"
         ];
 
         casks = [
