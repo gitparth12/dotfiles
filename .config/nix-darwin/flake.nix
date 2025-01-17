@@ -45,7 +45,6 @@
           pkgs.rlwrap  # required by cht.sh cli mode
           pkgs.readline  # python installation seemed incomplete
           pkgs.fd  # required by venv-selector.nvim
-          pkgs.teams
       ];
 
       homebrew = {
@@ -76,6 +75,7 @@
           "termius"
           "ghostty"
           "appcleaner"
+          "microsoft-teams"
         ];
         # afaik, dozer deprecated through homebrew, manual install necessary
 
