@@ -19,6 +19,8 @@ else
   export EDITOR='nvim'
 fi
 
+set -o vi
+
 # ALIASES
 alias vim=nvim
 if [ -x "$(command -v eza)" ]; then
