@@ -46,6 +46,7 @@
           pkgs.readline  # python installation seemed incomplete
           pkgs.fd  # required by venv-selector.nvim
           pkgs.zotero
+          pkgs.nushell
       ];
 
       homebrew = {
