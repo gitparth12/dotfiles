@@ -47,6 +47,8 @@
           pkgs.fd  # required by venv-selector.nvim
           pkgs.zotero
           pkgs.nushell
+          pkgs.cmake
+          pkgs.pkg-config
       ];
 
       homebrew = {
