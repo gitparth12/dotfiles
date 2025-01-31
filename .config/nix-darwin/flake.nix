@@ -59,6 +59,7 @@
           "croc"
           "xz"  # python installation seemed incomplete
           "huggingface-cli"
+          "starship"
         ];
 
         casks = [
