@@ -7,11 +7,11 @@
 #   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 # fi
 #
-# export ZSH="$HOME/.oh-my-zsh"
-# export ZSH_CUSTOM="$HOME/.config/oh-my-zsh/custom"
+export ZSH="$HOME/.oh-my-zsh"
+export ZSH_CUSTOM="$HOME/.config/oh-my-zsh/custom"
 # ZSH_THEME="powerlevel10k/powerlevel10k"
-# plugins=( git zsh-syntax-highlighting zsh-autosuggestions fzf wd zsh-nvm )
-# source $ZSH/oh-my-zsh.sh
+plugins=( git zsh-syntax-highlighting zsh-autosuggestions fzf wd zsh-nvm )
+source $ZSH/oh-my-zsh.sh
 # [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Preferred editor for local and remote sessions

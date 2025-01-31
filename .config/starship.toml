@@ -1,0 +1,49 @@
+# Left prompt (Main prompt)
+format = """
+[╭─](bold bright-white)$username$hostname$directory$git_branch$git_status
+[╰─](bold bright-white)$character"""
+
+# Right-aligned prompt (Command duration on the far right)
+right_format = """$cmd_duration"""
+
+# Prompt character (P10K-style icons)
+[character]
+success_symbol = "[❯](bold bright-green)"
+error_symbol = "[❯](bold bright-red)"
+vimcmd_symbol = "[❮](bold bright-cyan)"
+
+# Username (Bright Blue)
+[username]
+style_user = "bold bright-blue"
+style_root = "bold bright-red"
+show_always = true
+
+# Hostname (Bright Yellow)
+[hostname]
+ssh_only = false
+style = "bold bright-yellow"
+format = "[@$hostname]($style) "
+
+# Current Directory (Bright Cyan)
+[directory]
+style = "bold bright-cyan"
+truncation_length = 3
+truncation_symbol = "…/"
+fish_style_pwd_dir_length = 1 # Makes the last directory fully visible
+
+# Git Branch (Bright Magenta)
+[git_branch]
+symbol = " "
+style = "bold bright-magenta"
+
+# Git Status (Bright Red)
+[git_status]
+style = "bold bright-red"
+format = "([$all_status$ahead_behind]($style))"
+
+# Right-aligned Command Duration (Bright Purple) with Proper Spacing
+[cmd_duration]
+min_time = 500                                   # Only show if execution took longer than 500ms
+format = "[⚡ $duration(ms)](bold bright-purple)"
+show_milliseconds = false
+style = "bold bright-purple"
