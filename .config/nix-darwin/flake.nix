@@ -84,6 +84,7 @@
           "appcleaner"
           "microsoft-teams"
           "whatsapp"
+          "qflipper"
         ];
         # afaik, dozer deprecated through homebrew, manual install necessary
 
