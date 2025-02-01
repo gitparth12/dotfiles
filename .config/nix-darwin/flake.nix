@@ -61,6 +61,7 @@
           "xz"  # python installation seemed incomplete
           "huggingface-cli"
           "starship"
+          "zinit"
         ];
 
         casks = [
