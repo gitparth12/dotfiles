@@ -57,5 +57,9 @@ eval "$(pyenv init - zsh)"
 # add personal scripts directory to path
 export PATH="$HOME/scripts:$PATH"
 
+# atuin
+eval "$(atuin init zsh)"
+
+
 # starship
 # eval "$(starship init zsh)"
