@@ -49,6 +49,7 @@
           pkgs.nushell
           pkgs.cmake
           pkgs.pkg-config
+          pkgs.atuin
       ];
 
       homebrew = {
