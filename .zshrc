@@ -7,12 +7,30 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-export ZSH="$HOME/.oh-my-zsh"
-export ZSH_CUSTOM="$HOME/.config/oh-my-zsh/custom"
-ZSH_THEME="powerlevel10k/powerlevel10k"
-plugins=( git zsh-syntax-highlighting zsh-autosuggestions fzf wd zsh-nvm )
-source $ZSH/oh-my-zsh.sh
+# export ZSH="$HOME/.oh-my-zsh"
+# export ZSH_CUSTOM="$HOME/.config/oh-my-zsh/custom"
+# ZSH_THEME="powerlevel10k/powerlevel10k"
+# plugins=( git zsh-syntax-highlighting zsh-autosuggestions fzf wd zsh-nvm )
+# source $ZSH/oh-my-zsh.sh
+# [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Load zinit
+# source "${HOME}/.zinit/bin/zinit.zsh"
+source "$(brew --prefix zinit)/zinit.zsh"
+
+# Plugins
+zinit light zdharma-continuum/fast-syntax-highlighting
+zinit light zsh-users/zsh-autosuggestions
+zinit light zsh-users/zsh-syntax-highlighting
+zinit light junegunn/fzf
+zinit light rupa/z
+zinit light lukechilds/zsh-nvm
+zinit light atuinsh/atuin
+
+# Powerlevel10k
+zinit ice depth=1; zinit light romkatv/powerlevel10k
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
@@ -32,6 +50,7 @@ fi
 alias rebuild="darwin-rebuild switch --flake ~/dotfiles/.config/nix-darwin#pro"
 alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
 alias tmx="tmux-sessionizer"
+alias gcam="git add . && git commit -m "
 
 # OTHER SETUPS
 # homebrew ruby
@@ -60,6 +79,11 @@ export PATH="$HOME/scripts:$PATH"
 # atuin
 eval "$(atuin init zsh)"
 
-
 # starship
 # eval "$(starship init zsh)"
+
+# zinit
+ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
+[ ! -d $ZINIT_HOME ] && mkdir -p "$(dirname $ZINIT_HOME)"
+[ ! -d $ZINIT_HOME/.git ] && git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
+source "${ZINIT_HOME}/zinit.zsh"
