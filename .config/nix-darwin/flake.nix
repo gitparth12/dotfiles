@@ -62,6 +62,7 @@
           "huggingface-cli"
           "starship"
           "zinit"
+          "ollama"
         ];
 
         casks = [
