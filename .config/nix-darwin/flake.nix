@@ -50,7 +50,6 @@
           pkgs.cmake
           pkgs.pkg-config
           pkgs.atuin
-          pkgs.ollama
       ];
 
       homebrew = {
