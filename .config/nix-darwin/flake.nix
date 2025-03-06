@@ -87,6 +87,7 @@
           "microsoft-teams"
           "whatsapp"
           "qflipper"
+          "trex"
         ];
         # afaik, dozer deprecated through homebrew, manual install necessary
 
