@@ -51,7 +51,6 @@
           pkgs.pkg-config
           pkgs.atuin
           pkgs.inconsolata
-          pkgs.micromamba
       ];
 
       homebrew = {
@@ -89,6 +88,7 @@
           "whatsapp"
           "qflipper"
           "trex"
+          "miniforge"
         ];
         # afaik, dozer deprecated through homebrew, manual install necessary
 
