@@ -23,33 +23,34 @@
       # $ nix-env -qaP | grep wget
       nixpkgs.config.allowUnfree = true;
 
-      environment.systemPackages = [ 
-          pkgs.neovim
-          pkgs.mkalias
-          pkgs.tmux
-          pkgs.rustup
-          pkgs.vscode
-          pkgs.gh
-          pkgs.stow
-          pkgs.discord
-          pkgs.zoom-us
-          pkgs.ngrok
-          pkgs.spotify
-          pkgs.zoxide
-          pkgs.fzf
-          pkgs.eza
-          pkgs.ripgrep
-          pkgs.modrinth-app
+      environment.systemPackages = with pkgs; [ 
+          neovim
+          mkalias
+          tmux
+          rustup
+          vscode
+          gh
+          stow
+          discord
+          zoom-us
+          ngrok
+          spotify
+          zoxide
+          fzf
+          eza
+          ripgrep
+          modrinth-app
           # inputs.neovim-nightly-overlay.packages.${pkgs.system}.default
-          pkgs.rlwrap  # required by cht.sh cli mode
-          pkgs.readline  # python installation seemed incomplete
-          pkgs.fd  # required by venv-selector.nvim
-          pkgs.zotero
-          pkgs.nushell
-          pkgs.cmake
-          pkgs.pkg-config
-          pkgs.atuin
-          pkgs.inconsolata
+          rlwrap  # required by cht.sh cli mode
+          readline  # python installation seemed incomplete
+          fd  # required by venv-selector.nvim
+          zotero
+          nushell
+          cmake
+          pkg-config
+          atuin
+          inconsolata
+          hyperfine
       ];
 
       homebrew = {
