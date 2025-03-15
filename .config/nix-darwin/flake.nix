@@ -40,7 +40,6 @@
           pkgs.eza
           pkgs.ripgrep
           pkgs.modrinth-app
-          pkgs.pyenv
           # inputs.neovim-nightly-overlay.packages.${pkgs.system}.default
           pkgs.rlwrap  # required by cht.sh cli mode
           pkgs.readline  # python installation seemed incomplete
