@@ -40,6 +40,7 @@ else
 fi
 
 set -o vi
+bindkey -v '^?' backward-delete-char
 
 # ALIASES
 alias vim=nvim
