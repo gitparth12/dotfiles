@@ -51,6 +51,7 @@
           pkgs.pkg-config
           pkgs.atuin
           pkgs.inconsolata
+          pkgs.micromamba
       ];
 
       homebrew = {
