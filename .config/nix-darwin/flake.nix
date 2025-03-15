@@ -51,6 +51,7 @@
           atuin
           inconsolata
           hyperfine
+          bat
       ];
 
       homebrew = {
@@ -89,6 +90,7 @@
           "qflipper"
           "trex"
           "miniforge"
+          "logseq"
         ];
         # afaik, dozer deprecated through homebrew, manual install necessary
 
