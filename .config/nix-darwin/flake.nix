@@ -52,6 +52,7 @@
           inconsolata
           hyperfine
           bat
+          postman
       ];
 
       homebrew = {
