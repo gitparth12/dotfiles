@@ -66,6 +66,7 @@
           "starship"
           "zinit"
           "ollama"
+          "ncdu"
         ];
 
         casks = [
