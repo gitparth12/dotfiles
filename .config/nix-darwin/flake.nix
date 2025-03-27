@@ -67,6 +67,7 @@
           "zinit"
           "ollama"
           "ncdu"
+          "go"
         ];
 
         casks = [
