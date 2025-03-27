@@ -63,6 +63,3 @@ keybind = super+b>h=goto_split:left
 keybind = super+b>j=goto_split:bottom
 keybind = super+b>k=goto_split:top
 keybind = super+b>l=goto_split:right
-
-# fix sudo issue that says error opening terminal: xterm-ghostty
-command = TERM=xterm-256color /usr/bin/bash
