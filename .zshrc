@@ -77,6 +77,9 @@ export PATH="$HOME/scripts:$PATH"
 # atuin
 eval "$(atuin init zsh)"
 
+# add Go bin directory to path
+export PATH=$PATH:$HOME/go/bin
+
 # starship
 # eval "$(starship init zsh)"
 
