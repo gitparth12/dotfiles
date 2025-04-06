@@ -68,6 +68,7 @@
           "ollama"
           "ncdu"
           "go"
+          "qemu"
         ];
 
         casks = [
