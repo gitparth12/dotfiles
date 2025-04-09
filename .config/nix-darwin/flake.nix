@@ -69,6 +69,7 @@
           "ncdu"
           "go"
           "qemu"
+          "bitwarden-cli"
         ];
 
         casks = [

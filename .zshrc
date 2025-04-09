@@ -55,6 +55,8 @@ alias gcam="git add . && git commit -m "
 alias wattage="system_profiler SPPowerDataType | grep Wattage"
 
 # OTHER SETUPS
+# bitwarden cli
+export BWS_ACCESS_TOKEN="0.7818611c-65cd-4903-b802-b2ba002cc6df.a1UYOkHEtCHcTvpN8rUzXbQqFYtYLh:EYRStaJcU47LAD1rSEJvkw=="
 # homebrew ruby
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 
