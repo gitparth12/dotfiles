@@ -52,6 +52,7 @@ alias rebuild="darwin-rebuild switch --flake ~/dotfiles/.config/nix-darwin#pro"
 alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
 alias tmx="tmux-sessionizer"
 alias gcam="git add . && git commit -m "
+alias wattage="system_profiler SPPowerDataType | grep Wattage"
 
 # OTHER SETUPS
 # homebrew ruby
