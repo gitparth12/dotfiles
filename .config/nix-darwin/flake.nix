@@ -53,6 +53,7 @@
           hyperfine
           bat
           postman
+          aria2
       ];
 
       homebrew = {
