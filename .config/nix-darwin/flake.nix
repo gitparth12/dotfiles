@@ -97,6 +97,7 @@
           "trex"
           "miniforge"
           "logseq"
+          "devtoys"
         ];
         # afaik, dozer deprecated through homebrew, manual install necessary
 
