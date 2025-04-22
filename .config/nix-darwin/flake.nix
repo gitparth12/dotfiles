@@ -98,6 +98,7 @@
           "miniforge"
           "logseq"
           "devtoys"
+          "aldente"
         ];
         # afaik, dozer deprecated through homebrew, manual install necessary
 
