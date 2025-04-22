@@ -99,6 +99,7 @@
           "logseq"
           "devtoys"
           "aldente"
+          "topnotch"
         ];
         # afaik, dozer deprecated through homebrew, manual install necessary
 
@@ -109,6 +110,7 @@
             "Edison" = 1489591003;
             "Bitwarden" = 1352778147;
             "Bear" = 1091189122;
+            "Barbee" = 1548711022;
             # "Whatsapp" = 310633997;
         };
         onActivation.cleanup = "zap";
