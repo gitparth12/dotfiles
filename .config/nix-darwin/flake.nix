@@ -100,6 +100,7 @@
           "devtoys"
           "aldente"
           "topnotch"
+          "mactex-no-gui"
         ];
         # afaik, dozer deprecated through homebrew, manual install necessary
 

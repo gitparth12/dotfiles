@@ -52,7 +52,6 @@ alias rebuild="darwin-rebuild switch --flake ~/dotfiles/.config/nix-darwin#pro"
 alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
 alias tmx="tmux-sessionizer"
 alias gcam="git add . && git commit -m "
-alias wattage="system_profiler SPPowerDataType | grep Wattage"
 
 # OTHER SETUPS
 # bitwarden cli
@@ -82,6 +81,9 @@ eval "$(atuin init zsh)"
 
 # add Go bin directory to path
 export PATH=$PATH:$HOME/go/bin
+
+# add mactex binaries to path
+export PATH="$PATH:/usr/local/texlive/2025/bin/universal-darwin"
 
 # starship
 # eval "$(starship init zsh)"

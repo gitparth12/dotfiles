@@ -1,0 +1,9 @@
+#!/bin/bash
+
+wattage=$(system_profiler SPPowerDataType | grep Wattage)
+trimmed="${wattage#"${wattage%%[![:space:]]*}"}"
+if [[ -z "$trimmed" ]]; then
+  echo "Not currently charging"
+else
+  echo "$trimmed"
+fi
