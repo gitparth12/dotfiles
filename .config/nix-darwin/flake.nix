@@ -114,6 +114,7 @@
             "Bear" = 1091189122;
             "Barbee" = 1548711022;
             "Amphetamine" = 937984704;
+            "Xnip" = 1221250572;
             # "Whatsapp" = 310633997;
         };
         onActivation.cleanup = "zap";
