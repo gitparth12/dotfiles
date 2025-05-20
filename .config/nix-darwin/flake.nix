@@ -31,7 +31,6 @@
           vscode
           gh
           stow
-          discord
           zoom-us
           ngrok
           spotify
@@ -101,6 +100,8 @@
           "aldente"
           "topnotch"
           "mactex-no-gui"
+          "legcord"
+          "raycast"
         ];
         # afaik, dozer deprecated through homebrew, manual install necessary
 
