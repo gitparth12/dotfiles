@@ -31,7 +31,6 @@
           vscode
           gh
           stow
-          zoom-us
           ngrok
           spotify
           zoxide
