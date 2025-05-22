@@ -101,6 +101,7 @@
           "mactex-no-gui"
           "legcord"
           "raycast"
+          "zoom"
         ];
         # afaik, dozer deprecated through homebrew, manual install necessary
 
