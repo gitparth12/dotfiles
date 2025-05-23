@@ -89,7 +89,6 @@
           "termius"
           "ghostty"
           "appcleaner"
-          "microsoft-teams"
           "whatsapp"
           "qflipper"
           "trex"

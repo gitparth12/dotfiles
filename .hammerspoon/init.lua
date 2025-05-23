@@ -1,0 +1,20 @@
+-- Constants
+MODIFIERS = { "cmd" } -- Modifiers used for app shortcuts
+
+-- App configuration
+APPS = {
+	{ shortcut = "1", name = "Ghostty" },
+	{ shortcut = "2", name = "Arc" },
+	{ shortcut = "3", name = "Visual Studio Code" },
+	{ shortcut = "4", name = "Slack" },
+	{ shortcut = "5", name = "Finder" },
+	{ shortcut = "7", name = "Spotify" },
+	{ shortcut = "8", name = "Logseq" },
+}
+
+-- Bind application shortcuts
+for _, app in ipairs(APPS) do
+	hs.hotkey.bind(MODIFIERS, app.shortcut, function()
+		hs.application.launchOrFocus(app.name)
+	end)
+end
