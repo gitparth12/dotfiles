@@ -3,10 +3,10 @@ MODIFIERS = { "cmd" } -- Modifiers used for app shortcuts
 
 -- App configuration
 APPS = {
-	{ shortcut = "1", name = "Arc" },
-	{ shortcut = "2", name = "Ghostty" },
-	{ shortcut = "3", name = "Logseq" },
-	{ shortcut = "4", name = "Visual Studio Code" },
+	{ shortcut = "1", name = "Ghostty" },
+	{ shortcut = "2", name = "Arc" },
+	{ shortcut = "3", name = "Visual Studio Code" },
+	{ shortcut = "4", name = "Logseq" },
 	{ shortcut = "5", name = "Finder" },
 	{ shortcut = "6", name = "Zotero" },
 	{ shortcut = "7", name = "Slack" },
