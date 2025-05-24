@@ -3,13 +3,14 @@ MODIFIERS = { "cmd" } -- Modifiers used for app shortcuts
 
 -- App configuration
 APPS = {
-	{ shortcut = "1", name = "Ghostty" },
-	{ shortcut = "2", name = "Arc" },
-	{ shortcut = "3", name = "Visual Studio Code" },
-	{ shortcut = "4", name = "Slack" },
+	{ shortcut = "1", name = "Arc" },
+	{ shortcut = "2", name = "Ghostty" },
+	{ shortcut = "3", name = "Logseq" },
+	{ shortcut = "4", name = "Visual Studio Code" },
 	{ shortcut = "5", name = "Finder" },
-	{ shortcut = "7", name = "Spotify" },
-	{ shortcut = "8", name = "Logseq" },
+	{ shortcut = "6", name = "Zotero" },
+	{ shortcut = "7", name = "Slack" },
+	{ shortcut = "8", name = "Spotify" },
 }
 
 -- Bind application shortcuts
