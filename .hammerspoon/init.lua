@@ -7,10 +7,9 @@ APPS = {
 	{ shortcut = "2", name = "Arc" },
 	{ shortcut = "3", name = "Visual Studio Code" },
 	{ shortcut = "4", name = "Logseq" },
-	{ shortcut = "5", name = "Finder" },
-	{ shortcut = "6", name = "Zotero" },
-	{ shortcut = "7", name = "Slack" },
-	{ shortcut = "8", name = "Spotify" },
+	{ shortcut = "5", name = "Zotero" },
+	{ shortcut = "6", name = "Slack" },
+	{ shortcut = "7", name = "Spotify" },
 }
 
 -- Bind application shortcuts
