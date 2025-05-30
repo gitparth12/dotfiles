@@ -50,7 +50,7 @@
           inconsolata
           hyperfine
           bat
-          postman
+          # postman
           aria2
       ];
 
@@ -100,6 +100,7 @@
           "mactex-no-gui"
           "legcord"
           "zoom"
+          "zen"
         ];
         # afaik, dozer deprecated through homebrew, manual install necessary
 
@@ -110,7 +111,7 @@
             "Edison" = 1489591003;
             "Bitwarden" = 1352778147;
             "Bear" = 1091189122;
-            "Barbee" = 1548711022;
+            # "Barbee" = 1548711022;
             "Amphetamine" = 937984704;
             "Xnip" = 1221250572;
             # "Whatsapp" = 310633997;
