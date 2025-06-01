@@ -16,7 +16,18 @@ fi
 
 # Load zinit
 # source "${HOME}/.zinit/bin/zinit.zsh"
-source "$(brew --prefix zinit)/zinit.zsh"
+# source "$(brew --prefix zinit)/zinit.zsh"
+if [[ "$(uname)" == "Darwin" ]]; then
+    source "$(brew --prefix zinit)/zinit.zsh"
+elif [[ -f /etc/arch-release ]]; then
+    source /usr/share/zinit/zinit.zsh
+elif [[ -f /etc/os-release ]]; then
+    . /etc/os-release
+    echo "We're in $NAME, not sure where zinit location is."
+else
+    echo "Unknown OS, not sure where zinit location is."
+fi
+
 
 # Plugins
 zinit light zdharma-continuum/fast-syntax-highlighting
