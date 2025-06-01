@@ -15,18 +15,7 @@ fi
 # [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Load zinit
-# source "${HOME}/.zinit/bin/zinit.zsh"
-# source "$(brew --prefix zinit)/zinit.zsh"
-if [[ "$(uname)" == "Darwin" ]]; then
-    source "$(brew --prefix zinit)/zinit.zsh"
-elif [[ -f /etc/arch-release ]]; then
-    source /usr/share/zinit/zinit.zsh
-elif [[ -f /etc/os-release ]]; then
-    . /etc/os-release
-    echo "We're in $NAME, not sure where zinit location is."
-else
-    echo "Unknown OS, not sure where zinit location is."
-fi
+source /usr/share/zinit/zinit.zsh
 
 
 # Plugins
@@ -67,16 +56,9 @@ alias gcam="git add . && git commit -m "
 # OTHER SETUPS
 # bitwarden cli
 export BWS_ACCESS_TOKEN="0.7818611c-65cd-4903-b802-b2ba002cc6df.a1UYOkHEtCHcTvpN8rUzXbQqFYtYLh:EYRStaJcU47LAD1rSEJvkw=="
-# homebrew ruby
-export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 
-# make compilers discover ruby
-export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
-export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
 
 # sdkman homebrew setup
-export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
-[[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
 
 # zoxide
 eval "$(zoxide init --cmd cd zsh)"
@@ -106,21 +88,3 @@ ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 source "${ZINIT_HOME}/zinit.zsh"
 
 # >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/opt/homebrew/Caskroom/miniforge/base/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/opt/homebrew/Caskroom/miniforge/base/etc/profile.d/conda.sh" ]; then
-        . "/opt/homebrew/Caskroom/miniforge/base/etc/profile.d/conda.sh"
-    else
-        export PATH="/opt/homebrew/Caskroom/miniforge/base/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-
-if [ -f "/opt/homebrew/Caskroom/miniforge/base/etc/profile.d/mamba.sh" ]; then
-    . "/opt/homebrew/Caskroom/miniforge/base/etc/profile.d/mamba.sh"
-fi
-# <<< conda initialize <<<
-
