@@ -55,6 +55,10 @@
     },
     "on-click": "pavucontrol"
   },
+  "bluetooth": {
+    "on-click": "~/.config/waybar/scripts/rofi-bluetooth &",
+    "format": " {status}"
+  },
   "custom/lock": {
     "tooltip": false,
     "on-click": "sh -c '(sleep 0.5s; hyprlock)' & disown",
