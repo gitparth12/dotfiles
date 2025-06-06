@@ -77,6 +77,9 @@ PATH=$PATH:$(ruby -e 'puts Gem.bindir')
 # add personal scripts directory to path
 export PATH="$HOME/scripts:$PATH"
 
+# add cargo binaries to path
+export PATH="$HOME/.cargo/bin:$PATH"
+
 # atuin
 eval "$(atuin init zsh)"
 
