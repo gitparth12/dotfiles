@@ -78,6 +78,7 @@
           "ripgrep-all"
           "tokei"
           "just"
+          "mask"
         ];
 
         casks = [
