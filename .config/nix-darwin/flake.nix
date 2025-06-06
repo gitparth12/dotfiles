@@ -69,6 +69,10 @@
           "go"
           "qemu"
           "bitwarden-cli"
+          "xh"
+          "dust"
+          "dua"
+          "evil-helix"
         ];
 
         casks = [
