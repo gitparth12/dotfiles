@@ -1,7 +1,15 @@
 [user]
-	name = Parth Bhargava
-	email = 41479054+gitparth12@users.noreply.github.com
-[core]
-	editor = nvim
+  name = Parth Bhargava
+  email = 41479054+gitparth12@users.noreply.github.com
 [init]
   defaultBranch = "main"
+[core]
+  editor = nvim
+  pager = delta
+[interactive]
+  diffFilter = delta --color-only
+[delta]
+  navigate = true   # use n and N to move between diff sections
+  dark = true       # or light = true, or omit for auto-detection
+[merge]
+  conflictsyle = zdiff3
