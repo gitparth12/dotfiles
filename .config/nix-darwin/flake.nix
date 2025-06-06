@@ -13,6 +13,7 @@
       flake = false;
     };
 
+
     neovim-nightly-overlay.url = "github:nix-community/neovim-nightly-overlay";
   };
 
@@ -59,6 +60,7 @@
         brews = [
           "mas"
           "sdkman-cli"
+          "espanso"
           "croc"
           "xz"  # python installation seemed incomplete
           "huggingface-cli"
