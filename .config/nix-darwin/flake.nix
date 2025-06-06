@@ -75,6 +75,9 @@
           "evil-helix"
           "cargo-binstall"
           "git-delta"
+          "ripgrep-all"
+          "tokei"
+          "just"
         ];
 
         casks = [
