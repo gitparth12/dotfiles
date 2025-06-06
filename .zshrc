@@ -58,6 +58,10 @@ alias gcam="git add . && git commit -m "
 # bitwarden cli
 export BWS_ACCESS_TOKEN="0.7818611c-65cd-4903-b802-b2ba002cc6df.a1UYOkHEtCHcTvpN8rUzXbQqFYtYLh:EYRStaJcU47LAD1rSEJvkw=="
 
+# sdkman homebrew setup
+export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
+[[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
+
 # zoxide
 eval "$(zoxide init --cmd cd zsh)"
 
