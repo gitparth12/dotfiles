@@ -60,7 +60,6 @@
         brews = [
           "mas"
           "sdkman-cli"
-          "espanso"
           "croc"
           "xz"  # python installation seemed incomplete
           "huggingface-cli"
@@ -115,6 +114,7 @@
           "legcord"
           "zoom"
           "zen"
+          "espanso"
         ];
         # afaik, dozer deprecated through homebrew, manual install necessary
 
