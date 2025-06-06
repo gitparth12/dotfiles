@@ -71,7 +71,7 @@
           "bitwarden-cli"
           "xh"
           "dust"
-          "dua"
+          "dua-cli"
           "evil-helix"
           "cargo-binstall"
         ];
