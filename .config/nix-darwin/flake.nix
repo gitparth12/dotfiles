@@ -79,6 +79,7 @@
           "tokei"
           "just"
           "mask"
+          "mprocs"
         ];
 
         casks = [
