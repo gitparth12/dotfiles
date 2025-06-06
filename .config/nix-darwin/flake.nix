@@ -74,6 +74,7 @@
           "dua-cli"
           "evil-helix"
           "cargo-binstall"
+          "git-delta"
         ];
 
         casks = [
