@@ -57,16 +57,6 @@ alias gcam="git add . && git commit -m "
 # OTHER SETUPS
 # bitwarden cli
 export BWS_ACCESS_TOKEN="0.7818611c-65cd-4903-b802-b2ba002cc6df.a1UYOkHEtCHcTvpN8rUzXbQqFYtYLh:EYRStaJcU47LAD1rSEJvkw=="
-# homebrew ruby
-export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
-
-# make compilers discover ruby
-export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
-export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
-
-# sdkman homebrew setup
-export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
-[[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
 
 # zoxide
 eval "$(zoxide init --cmd cd zsh)"

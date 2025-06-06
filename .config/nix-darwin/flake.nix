@@ -80,6 +80,7 @@
           "just"
           "mask"
           "mprocs"
+          "openssl"
         ];
 
         casks = [
