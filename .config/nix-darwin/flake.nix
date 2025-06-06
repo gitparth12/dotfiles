@@ -73,6 +73,7 @@
           "dust"
           "dua"
           "evil-helix"
+          "cargo-binstall"
         ];
 
         casks = [
