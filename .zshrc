@@ -77,8 +77,8 @@ export PATH="$HOME/.cargo/bin:$PATH"
 # atuin
 eval "$(atuin init zsh)"
 
-# rtx-cli
-eval "$(~/.cargo/bin/rtx activate zsh)"
+# mise
+eval "$(~/.cargo/bin/mise activate zsh)"
 
 # add Go bin directory to path
 export PATH=$PATH:$HOME/go/bin
