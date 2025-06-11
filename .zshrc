@@ -48,7 +48,7 @@ if [ -x "$(command -v eza)" ]; then
     alias ls="eza"
     alias la="eza --long --all --group"
 fi
-alias rebuild="darwin-rebuild switch --flake ~/dotfiles/.config/nix-darwin#pro"
+alias rebuild="sudo darwin-rebuild switch --flake ~/dotfiles/.config/nix-darwin#pro"
 alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
 alias cat="bat"
 alias tmx="tmux-sessionizer"
