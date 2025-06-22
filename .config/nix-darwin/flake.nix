@@ -64,7 +64,7 @@
           "sdkman-cli"
           "croc"
           "xz"  # python installation seemed incomplete
-          "huggingface-cli"
+          # "huggingface-cli"
           "starship"
           "zinit"
           "ollama"
@@ -127,10 +127,9 @@
             "Edison" = 1489591003;
             "Bitwarden" = 1352778147;
             "Bear" = 1091189122;
-            # "Barbee" = 1548711022;
             "Amphetamine" = 937984704;
             "Xnip" = 1221250572;
-            # "Whatsapp" = 310633997;
+            "Outlook" = 985367838;
         };
         onActivation.cleanup = "zap";
         onActivation.autoUpdate = true;
