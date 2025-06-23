@@ -28,6 +28,9 @@ auto-update-channel = stable
 shell-integration-features = no-cursor, sudo
 copy-on-select = clipboard
 
+# disable copy notification
+app-notifications = no-clipboard-copy
+
 # Custom Keybinds & Config (super represents cmd key on mac)
 # For Simple Keybinds
 keybind = super+r=reload_config 
