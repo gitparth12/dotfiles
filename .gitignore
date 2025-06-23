@@ -1,3 +1,4 @@
 .config/tmux/.tmux/plugins
 .config/gh/hosts.yml
 .DS_Store
+.ssh/known_hosts*
