@@ -130,6 +130,7 @@
             "Amphetamine" = 937984704;
             "Xnip" = 1221250572;
             "Outlook" = 985367838;
+            "Tailscale" = 1475387142;
         };
         onActivation.cleanup = "zap";
         onActivation.autoUpdate = true;
