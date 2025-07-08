@@ -117,6 +117,7 @@
           "zoom"
           "zen"
           "espanso"
+          "thebrowsercompany-dia"
         ];
         # afaik, dozer deprecated through homebrew, manual install necessary
 

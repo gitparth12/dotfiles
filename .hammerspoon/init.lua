@@ -11,6 +11,7 @@ APPS = {
 	{ shortcut = "6", name = "Mail" },
 	{ shortcut = "7", name = "Slack" },
 	{ shortcut = "8", name = "Spotify" },
+	{ shortcut = "9", name = "java" },
 }
 
 -- Bind application shortcuts
