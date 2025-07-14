@@ -119,6 +119,7 @@
                         "espanso"
                         "thebrowsercompany-dia"
                         "pieces"
+                        "microsoft-teams"
                     ];
                     # afaik, dozer deprecated through homebrew, manual install necessary
 
