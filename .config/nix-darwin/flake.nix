@@ -120,6 +120,7 @@
                         "thebrowsercompany-dia"
                         "pieces"
                         "microsoft-teams"
+                        "openscad"
                     ];
                     # afaik, dozer deprecated through homebrew, manual install necessary
 
