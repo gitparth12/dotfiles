@@ -13,13 +13,17 @@ matches:
     replace: "Hi there!"
 
   # Emails
-  - trigger: ":em0"
+  - trigger: ":em0 "
     replace: "parthbhargava0@gmail.com"
-  - trigger: ":em1209"
+  - trigger: ":em1209 "
     replace: "parthbhargava1209@gmail.com"
-  - trigger: ":emstu"
+  - trigger: ":em12 "
+    replace: "parthbhargava12@gmail.com"
+  - trigger: ":emstu "
     replace: "pbha6036@uni.sydney.edu"
-  - trigger: ":emstaff"
+  - trigger: ":emusyd "
+    replace: "parth.bhargava@sydney.edu.au"
+  - trigger: ":emuts "
     replace: "parth.bhargava@sydney.edu.au"
   # Email template
   - trigger: ":em\\((?P<person>.*)\\)"
@@ -64,4 +68,3 @@ matches:
           cmd: "echo 'Hello from your shell'"
 
   # And much more! For more information, visit the docs: https://espanso.org/docs/
-
