@@ -84,6 +84,7 @@
                         "mask"
                         "mprocs"
                         "openssl"
+                        "glab"
                     ];
 
                     casks = [
