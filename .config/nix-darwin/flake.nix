@@ -105,7 +105,7 @@
                         "termius"
                         "ghostty"
                         "appcleaner"
-                        "whatsapp"
+                        "whatsapp@beta"
                         "qflipper"
                         "trex"
                         "miniforge"
