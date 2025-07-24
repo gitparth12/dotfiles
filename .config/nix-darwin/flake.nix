@@ -122,6 +122,7 @@
                         "pieces"
                         "microsoft-teams"
                         "openscad"
+                        "yaak"
                     ];
                     # afaik, dozer deprecated through homebrew, manual install necessary
 
