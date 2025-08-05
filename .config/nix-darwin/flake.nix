@@ -121,6 +121,7 @@
                         "thebrowsercompany-dia"
                         "pieces"
                         "microsoft-teams"
+                        "microsoft-onenote"
                         "openscad"
                         "yaak"
                     ];
