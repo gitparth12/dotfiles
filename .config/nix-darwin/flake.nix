@@ -125,6 +125,7 @@
             "openscad"
             "yaak"
             "betterdisplay"
+            "numi"
           ];
           # afaik, dozer deprecated through homebrew, manual install necessary
 
