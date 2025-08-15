@@ -36,13 +36,13 @@ matches:
       Parth
 
   # Passport
-  - trigger: ":passport"
+  - trigger: ":passport "
     replace: "U4965360"
   # SID
-  - trigger: ":sid"
+  - trigger: ":sid "
     replace: "510401900"
   # Staff ID
-  - trigger: ":staffid"
+  - trigger: ":staffid "
     replace: "1192637"
 
   # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
@@ -50,7 +50,7 @@ matches:
   # But matches can also be dynamic:
 
   # Print the current date
-  - trigger: ":date"
+  - trigger: ":date "
     replace: "{{mydate}}"
     vars:
       - name: mydate
