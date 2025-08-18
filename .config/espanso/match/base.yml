@@ -15,6 +15,8 @@ matches:
   # Emails
   - trigger: ":em0 "
     replace: "parthbhargava0@gmail.com"
+  - trigger: ":emreach "
+    replace: "reach.parthbhargava@gmail.com"
   - trigger: ":em1209 "
     replace: "parthbhargava1209@gmail.com"
   - trigger: ":em12 "
@@ -25,6 +27,15 @@ matches:
     replace: "parth.bhargava@sydney.edu.au"
   - trigger: ":emuts "
     replace: "parth.bhargava@sydney.edu.au"
+
+  # URLs
+  - trigger: ":portfolio "
+    replace: "https://parthbhargava.com/"
+  - trigger: ":linkedin "
+    replace: "https://linkedin.com/in/parthbhargava"
+  - trigger: ":github "
+    replace: "https://github.com/gitparth12"
+
   # Email template
   - trigger: ":em\\((?P<person>.*)\\)"
     replace: |
@@ -38,6 +49,9 @@ matches:
   # Passport
   - trigger: ":passport "
     replace: "U4965360"
+  # Aadhaar
+  - trigger: ":aadhaar "
+    replace: "633402662825"
   # SID
   - trigger: ":sid "
     replace: "510401900"
