@@ -85,6 +85,7 @@
             "mprocs"
             "openssl"
             "glab"
+            "aichat"
           ];
 
           casks = [
