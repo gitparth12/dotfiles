@@ -31,7 +31,6 @@
           mkalias
           tmux
           rustup
-          vscode
           gh
           stow
           ngrok
@@ -127,6 +126,7 @@
             "yaak"
             "betterdisplay"
             "numi"
+            "visual-studio-code"
           ];
           # afaik, dozer deprecated through homebrew, manual install necessary
 
