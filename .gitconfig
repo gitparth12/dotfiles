@@ -13,3 +13,5 @@
   dark = true       # or light = true, or omit for auto-detection
 [merge]
   conflictsyle = zdiff3
+[includeIf "gitdir:~/data/work/cirro"]
+  path = ~/data/work/cirro/.gitconfig
