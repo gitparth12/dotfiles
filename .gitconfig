@@ -6,6 +6,7 @@
 [core]
   editor = nvim
   pager = delta
+	sshCommand = /Users/parthbhargava/scripts/git-ssh-command
 [interactive]
   diffFilter = delta --color-only
 [delta]
