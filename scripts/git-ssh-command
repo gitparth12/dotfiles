@@ -1,0 +1,20 @@
+#!/bin/bash
+while ! [[ "$1" =~ "git@" ]]; do shift; done # git may send ssh options
+if [[ "$2" =~ ^git-lfs-authenticate.* ]]; then # reconstruct url for git-lfs
+        remote="$1:$(awk '{print$2}'<<<"$2")"
+else # reconstruct url for standard git commands
+        remote="$1:$(sed "s,.* ,,;s,',,g"<<<"$2")"
+fi
+echo "Detected $remote from $@" >&2
+key="$(git config ssh.key)"
+if [ -n "$key" ]; then # use specified SSH key, if set
+        ssh -o IdentitiesOnly=yes -i "$key" "$@"
+elif [[ "$remote" == git@github.com:Cirro-Software* ]]; then # use company id
+        ssh -o IdentitiesOnly=yes -i ~/.ssh/id_cirro "$@"
+# elif [[ "$remote" == git@gitlab.com:my-company* ]]; then # use company id
+#         ssh -o IdentitiesOnly=yes -i ~/.ssh/company-id "$@"
+# elif [[ "$remote" =~ git@bitbucket.org:.*other-org.* ]]; then # bitbucket has weird urls
+#         ssh -o IdentitiesOnly=yes -i ~/.ssh/custom-org-key "$@"
+else # otherwise use whatever the agent has (my personal key)
+        ssh "$@"
+fi
