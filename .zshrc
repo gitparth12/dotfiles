@@ -24,7 +24,7 @@ zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-syntax-highlighting
 zinit light junegunn/fzf
 zinit light rupa/z
-zinit light lukechilds/zsh-nvm
+# zinit light lukechilds/zsh-nvm
 zinit light atuinsh/atuin
 
 # Powerlevel10k
