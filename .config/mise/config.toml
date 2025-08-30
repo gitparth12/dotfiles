@@ -3,6 +3,7 @@ ruby = "latest"
 python = "3.12"
 node = "latest"
 go = "latest"
+dotnet = "8.0"
 
 [settings]
 idiomatic_version_file_enable_tools = []
