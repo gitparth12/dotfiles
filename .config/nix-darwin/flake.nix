@@ -128,6 +128,7 @@
             "betterdisplay"
             "numi"
             "visual-studio-code"
+            "rider"
           ];
           # afaik, dozer deprecated through homebrew, manual install necessary
 
