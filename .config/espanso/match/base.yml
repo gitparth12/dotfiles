@@ -56,7 +56,10 @@ matches:
   - trigger: ":sid "
     replace: "510401900"
   # Staff ID
-  - trigger: ":staffid "
+  - trigger: ":usydstaffid "
+    replace: "1192637"
+
+  - trigger: ":utsstaffid "
     replace: "1192637"
 
   # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
