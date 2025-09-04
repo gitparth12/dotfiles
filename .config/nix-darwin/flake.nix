@@ -129,6 +129,7 @@
             "numi"
             "visual-studio-code"
             "rider"
+            "blender"
           ];
           # afaik, dozer deprecated through homebrew, manual install necessary
 
