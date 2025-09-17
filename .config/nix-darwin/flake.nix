@@ -44,7 +44,6 @@
           rlwrap  # required by cht.sh cli mode
           readline  # python installation seemed incomplete
           fd  # required by venv-selector.nvim
-          zotero
           nushell
           cmake
           pkg-config
@@ -130,6 +129,7 @@
             "visual-studio-code"
             "rider"
             "blender"
+            "zotero"
           ];
           # afaik, dozer deprecated through homebrew, manual install necessary
 

@@ -26,7 +26,7 @@ matches:
   - trigger: ":emusyd "
     replace: "parth.bhargava@sydney.edu.au"
   - trigger: ":emuts "
-    replace: "parth.bhargava@sydney.edu.au"
+    replace: "parth.bhargava@uts.edu.au"
 
   # URLs
   - trigger: ":portfolio "
